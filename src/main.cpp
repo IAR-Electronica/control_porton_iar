@@ -39,9 +39,9 @@ void loop() {
 
 
 void connect_iar_local(){
-  IPAddress ip_porton_iar(163,10,43,24)  ; 
-  IPAddress gateway_local_iar(163,10,43,3)  ; 
-  IPAddress subnet_local_iar(255,255,255,0)  ; 
+  IPAddress ip_porton_iar(,,,)  ; 
+  IPAddress gateway_local_iar(,,,)  ; 
+  IPAddress subnet_local_iar(,,,)  ; 
   
   WiFi.mode(WIFI_STA) ; 
   WiFi.config(ip_porton_iar,gateway_local_iar,subnet_local_iar ) ; 

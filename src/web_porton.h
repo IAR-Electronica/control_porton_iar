@@ -47,7 +47,7 @@ const char INDEX_PAGE[] = R"=====(
         console.log("press") ;
         //document.getElementById('button_door')
         const Http = new XMLHttpRequest();
-        const url='http://"ip_port"/open';
+        const url='http://ip_port/open';
         Http.open("GET", url,true);
         Http.send();
         Http.onreadystatechange = function() {
